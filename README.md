@@ -1,6 +1,6 @@
 <table align="left">
   <td>
-    <a target="_blank" href="https://colab.research.google.com/github/hooha1207/magenta_tutorial.git">Colab</a>
+    <a target="_blank" href="https://colab.research.google.com/github/hooha1207/magenta_tutorial.git"><img src="https://www.tensorflow.org/images/colab_logo_32px.png" />Colab</a>
   </td>
 </table>
 
