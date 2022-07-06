@@ -4,6 +4,7 @@
   </td>
 </table>
 
+<br/>
 
 # magenta_tutorial
 Colab 파일에 목차 기능을 이용해서 좀 더 편하게 볼 수 있도록 해놨습니다  
