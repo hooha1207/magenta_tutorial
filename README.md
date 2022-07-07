@@ -149,4 +149,4 @@ click continue button
 You can check the midi file by pressing the play button
 
 
-[online_sequencer]('C:\magenta_tutorial\20220707_035419.png')
+![online_sequencer]('C:\magenta_tutorial\20220707_035419.png')
