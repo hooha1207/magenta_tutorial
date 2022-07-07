@@ -27,7 +27,7 @@ pip install magenta
 
 <br/>
 
-[sample command]
+## [sample command]
 
 music_vae_generate \ --config=cat-drums_2bar_small.hikl \ --checkpoint_file=C:/magenta_tutorial/checkpoints/cat-drums_2bar_small.hikl.tar \ --mode=sample \ --num_outputs=5 \ --output_dir=C:/magenta_tutorial/output
 
@@ -67,7 +67,7 @@ log = INFO
 <br/>
 <br/>
 
-[ interpolation command]
+## [ interpolation command]
 
 music_vae_generate --config=cat-mel_2bar_big --checkpoint_file=C:/magenta_tutorial/checkpoints/groovae_4bar.tar --mode=interpolate --num_outputs=5 --input_midi_1=C:/Users/USER/magenta/input/interpolation1.mid --input_midi_2=C:/Users/USER/magenta/input/interpolation2.mid --output_dir=C:/Users/USER/magenta/output
 
@@ -76,7 +76,7 @@ music_vae_generate --config=cat-mel_2bar_big --checkpoint_file=C:/magenta_tutori
 <br/>
 
 
-[ custom data sequence ]
+## [ custom data sequence ]
 
 convert_dir_to_note_sequences --input_dir=C:/magenta_tutorial/input/groove_onlymidi/drummer1/session1 --output_file=C:/magenta_tutorial/custom_tfrecord/onlymidi_record.tfrecord --recursive
 
@@ -86,7 +86,7 @@ convert_dir_to_note_sequences --input_dir=C:/magenta_tutorial/input/groove_onlym
 
  
 
-[ train ]
+## [ train ]
 
 music_vae_train --config=groovae_4bar --run_dir=C:/magenta_tutorial/run_dir --mode=train --examples_path=C:/magenta_tutorial/custom_tfrecord/onlymidi_record.tfrecord
 
