@@ -1,15 +1,3 @@
-# magenta_tutorial
-<table align="left">
-  <td>
-    <a target="_blank" href="https://colab.research.google.com/github/hooha1207/magenta_tutorial/main/README.md"><img src="https://www.tensorflow.org/images/colab_logo_32px.png" />Colab</a>
-  </td>
-</table>
-
-<br/>
-<br/>
-<br/>
-
-
 # cmd로 midi 파일 전처리 및 checkpoint 만드는 방법 정리
 ### 만약 custom checkpoint 및 tfrecord를 다 만들었다면, <br/> magenta_musicvae_4bar_code.py 를 수정해서 바로 실행하면 output 제작 가능합니다
 
