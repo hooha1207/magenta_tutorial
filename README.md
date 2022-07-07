@@ -126,14 +126,13 @@ music_vae_generate --config=groovae_4bar --checkpoint_file=C:/magenta_tutorial/c
 after:
 
 
-open the online sequenser shortcut
-click import midi
-select predict midi file
-click continue button
+open the online sequenser shortcut  
+click import midi  
+select predict midi file  
+click continue button  
+check midi file  
 
-You can check the midi file by pressing the play button
-
-
+https://onlinesequencer.net/
 ![online_sequencer](20220707_035419.png)
 
 
