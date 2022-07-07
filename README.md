@@ -52,7 +52,7 @@ log = INFO
 <br/>
 <br/>
 
-## [ interpolation command]
+## [pretrained interpolation command]
 
 music_vae_generate --config=cat-mel_2bar_big --checkpoint_file=C:/magenta_tutorial/checkpoints/groovae_4bar.tar --mode=interpolate --num_outputs=5 --input_midi_1=C:/Users/USER/magenta/input/interpolation1.mid --input_midi_2=C:/Users/USER/magenta/input/interpolation2.mid --output_dir=C:/Users/USER/magenta/output
 
