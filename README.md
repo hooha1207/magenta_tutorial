@@ -17,11 +17,13 @@ Colab으로 이동해서 면 감사하겠습니다
 ## 만약 custom checkpoint 및 tfrecord를 다 만들었다면, <br/> magenta_musicvae_4bar_code.py 를 수정해서 바로 실행하면 output 제작 가능합니다
 before :
 
+<br/>
 
-open cmd
-create python 3.6.x version virtual environment
-pip install magenta
+open cmd  
+create python 3.6.x version virtual environment  
+pip install magenta  
 
+<br/>
 
 [sample command]
 
@@ -60,26 +62,25 @@ max_batch_size = 8
 temperature = 0.5  
 log = INFO  
 
-
-
+<br/>
+<br/>
 
 [ interpolation command]
 
-python music_vae_generate.py --config=cat-mel_2bar_big --checkpoint_file=C:/magenta_tutorial/checkpoints/groovae_4bar.tar --mode=interpolate --num_outputs=5 --input_midi_1=C:/Users/USER/magenta/input/interpolation1.mid --input_midi_2=C:/Users/USER/magenta/input/interpolation2.mid --output_dir=C:/Users/USER/magenta/output
+music_vae_generate --config=cat-mel_2bar_big --checkpoint_file=C:/magenta_tutorial/checkpoints/groovae_4bar.tar --mode=interpolate --num_outputs=5 --input_midi_1=C:/Users/USER/magenta/input/interpolation1.mid --input_midi_2=C:/Users/USER/magenta/input/interpolation2.mid --output_dir=C:/Users/USER/magenta/output
 
-
-
-
+<br/>
+<br/>
+<br/>
 
 
 [ custom data sequence ]
 
 convert_dir_to_note_sequences --input_dir=C:/magenta_tutorial/input/groove_onlymidi/drummer1/session1 --output_file=C:/magenta_tutorial/custom_tfrecord/onlymidi_record.tfrecord --recursive
 
-
-
-
-
+<br/>
+<br/>
+<br/>
 
  
 
