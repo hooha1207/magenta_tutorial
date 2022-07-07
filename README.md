@@ -12,7 +12,7 @@ pip install magenta
 
 <br/>
 
-## [sample command]
+## [pretrained sample command]
 
 music_vae_generate \ --config=cat-drums_2bar_small.hikl \ --checkpoint_file=C:/magenta_tutorial/checkpoints/cat-drums_2bar_small.hikl.tar \ --mode=sample \ --num_outputs=5 \ --output_dir=C:/magenta_tutorial/output
 
