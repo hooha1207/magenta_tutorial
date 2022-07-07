@@ -1,7 +1,7 @@
 # cmd로 midi 파일 전처리 및 checkpoint 만드는 방법 정리
 ### 만약 custom checkpoint 및 tfrecord를 다 만들었다면, <br/> magenta_musicvae_4bar_code.py 를 수정해서 바로 실행하면 output 제작 가능합니다
 
-### output 폴더에서 custom dataset으로 만든 midi 파일을 확인할 수 있습니다
+### output 폴더에서 custom dataset으로 만든 midi 파일을 확인할 수 있습니다 <br/> groove 데이터를 custom dataset 프로세스에 맞게 재구성했을 뿐 raw data는 
 before :
 
 <br/>
