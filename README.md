@@ -155,7 +155,7 @@ https://youtu.be/qjFFPDLDLEo
 https://www.youtube.com/playlist?list=PL7ZVZgsnLwEGskuPmm2-pYsNKY8Ihs5AP  
 
 
-## A Hierarchical Latent Structure for Variational Conversation Modeling 보조 한글번역
+## A Hierarchical Latent Structure for Variational Conversation Modeling <br/> 한글 보조 번역
 https://arxiv.org/pdf/1803.05428.pdf  
 
 추상적인
