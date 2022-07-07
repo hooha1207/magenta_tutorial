@@ -14,8 +14,7 @@ Colab으로 이동해서 면 감사하겠습니다
 
 
 # cmd로 midi 파일 전처리 및 checkpoint 만드는 방법 정리
-## 만약 custom checkpoint 및 tfrecord를 다 만들었다면,
-## magenta_musicvae_4bar_code.py 를 수정해서 바로 실행하면 output 제작 가능합니다
+## 만약 custom checkpoint 및 tfrecord를 다 만들었다면, <br/> magenta_musicvae_4bar_code.py 를 수정해서 바로 실행하면 output 제작 가능합니다
 before :
 
 
