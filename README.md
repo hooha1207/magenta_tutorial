@@ -113,7 +113,7 @@ run_dir 경로 안에 train 폴더를 만든 다음 checkpoint를 저장하므�
 run_dir을 적절하게 설정해줄 것
 
 
-!
+!  
 checkpoint 파일은 아래 세 개가 한 쌍입니다  
 model.ckpt-14.data-00000-of-00001  
 model.ckpt-14.index  
